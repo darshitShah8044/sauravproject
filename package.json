@@ -1,6 +1,7 @@
 {
   "name": "sauravproject",
   "version": "0.1.0",
+  "main": "HomePage.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
