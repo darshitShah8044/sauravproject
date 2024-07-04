@@ -19,16 +19,6 @@ const Header = () => {
                 Home
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">
-                Products
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-300">
-                Contact
-              </a>
-            </li>
           </ul>
         </nav>
       </div>
