@@ -11,7 +11,8 @@ const LandingPage = () => {
   // Function to fetch data from API with optional filters
   const fetchData = async () => {
     try {
-      let apiUrl = "https://sauravproject-gs41.onrender.com/api/item";
+      //  let apiUrl = "https://sauravproject-gs41.onrender.com/api/item";
+      let apiUrl = "http://localhost:5000/api/item";
 
       // Append filters to API URL if they are set
       if (filters.companyName || filters.size || filters.clarity) {
