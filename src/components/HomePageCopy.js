@@ -22,6 +22,12 @@ const HomePageCopy = () => {
             }}
             text={"view Stock"}
           />
+          <Button
+            onClick={() => {
+              navigate("/uploadFile");
+            }}
+            text={"Upload File !"}
+          />
         </div>
       </div>
     </>

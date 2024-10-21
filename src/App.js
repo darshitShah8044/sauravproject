@@ -5,6 +5,7 @@ import * as React from "react";
 import LandingPage from "./components/LandingPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePageCopy from "./components/HomePageCopy";
+import FileUpload from "./components/FileUpload";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/results",
     element: <LandingPage />,
+  },
+  {
+    path: "/uploadFile",
+    element: <FileUpload />,
   },
 ]);
 
